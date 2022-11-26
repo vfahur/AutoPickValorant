@@ -1,5 +1,4 @@
 import pyautogui
-from time import sleep
 
 def click(x, y):
     pyautogui.moveTo(x, y)
