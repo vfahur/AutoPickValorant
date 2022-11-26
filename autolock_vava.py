@@ -28,7 +28,7 @@ def main():
     
     while True:
         if check_screen(escolha):
-            print('Aceitei!')       
+            print('Bom jogo!')       
     
             break
             
