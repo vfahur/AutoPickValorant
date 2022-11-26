@@ -23,7 +23,6 @@ def check_screen(nome):
     return False
 
 def main():
-    queue_counter = 0
     print('Aguardando partida...', end="\n\n")
     
     while True:
