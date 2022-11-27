@@ -10,7 +10,7 @@ def check_screen(nome):
     img = pyautogui.locateOnScreen("autolock_{}.png".format(nome), confidence=0.7)
     button_pos = img
 
-    img2 = pyautogui.locateOnScreen(r"C:\confirmarvava.png", confidence=0.7)
+    img2 = pyautogui.locateOnScreen("confirmarvava.png", confidence=0.7)
     button_pos2 = img2 
 
     if button_pos != None:
