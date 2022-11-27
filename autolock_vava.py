@@ -29,7 +29,7 @@ def main():
         if check_screen(escolha):
             print('Bom jogo!')       
     
-            break
+            break #sleep(3)
             
     
 
